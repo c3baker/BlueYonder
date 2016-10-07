@@ -1,12 +1,7 @@
-import sys
 import loadImages
-import string
 import unittest
 import os
-from urllib.request import urlopen
-from urllib.request import urlretrieve
-from urllib.parse import urlparse
-from urllib import error
+
 
 class LoadImagesTests(unittest.TestCase):
 	"""Tests for the ''loadImages'' modules """
